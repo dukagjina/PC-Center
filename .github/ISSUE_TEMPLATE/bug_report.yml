@@ -1,0 +1,42 @@
+name: Report a problem
+description: Report a bug, confusing behavior or an installation issue.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report will be public. Remove personal information from screenshots and logs.
+        For a security vulnerability, use Security → Report a vulnerability instead.
+  - type: input
+    id: version
+    attributes:
+      label: PC Center version
+      placeholder: 0.14.8
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2, x64
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the page or tool you used and the exact error, if any.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: Describe the steps and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Relevant hardware or screenshots
+      description: For GPU or drive issues, include the model and driver or filesystem if known. Do not include serial numbers or private file contents.

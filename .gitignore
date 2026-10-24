@@ -1,0 +1,8 @@
+*.exe
+*.zip
+*.log
+*.tmp
+.env
+.env.*
+Thumbs.db
+Desktop.ini
