@@ -8,7 +8,7 @@ PC Center brings performance monitoring, storage tools, startup management,
 backup and recovery into one Windows app. PC checkup guides you through
 **scan → review → fix → verify**.
 
-**[Download PC Center 0.14.9 for Windows](https://github.com/dukagjina/PC-Center/releases/download/v0.14.9/PC-Center-Setup.exe)**
+**[Download PC Center 0.14.10 for Windows](https://github.com/dukagjina/PC-Center/releases/download/v0.14.10/PC-Center-Setup.exe)**
 
 [Release notes](https://github.com/dukagjina/PC-Center/releases/latest) ·
 [Installation help](INSTALL.md) ·
@@ -21,7 +21,7 @@ or reputation warning; managed PCs may block it. See [installation help](INSTALL
 
 ## Screenshots
 
-The main pages in PC Center **0.14.9**. Select an image to view it at full size.
+The main pages of PC Center, captured in **0.14.9**; these page layouts are unchanged in **0.14.10**. Select an image to view it at full size.
 Overview shows live readings from the PC used for these screenshots; readings
 and available hardware controls vary by device.
 

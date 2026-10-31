@@ -19,7 +19,7 @@ using the service, finish or stop that operation and run setup again.
 
 ## Unsigned release
 
-PC Center 0.14.9 does not have a trusted code-signing certificate. Windows may
+PC Center 0.14.10 does not have a trusted code-signing certificate. Windows may
 show **Unknown publisher** or a SmartScreen reputation warning. Some security
 policies will prevent installation. Publishing on GitHub does not add a digital
 signature or Microsoft certification.
@@ -29,11 +29,11 @@ ask its administrator to review the app before installation.
 
 ## Check the download
 
-The release includes **PC-Center-Setup.exe.sha256**. For version 0.14.9, the EXE's
+The release includes **PC-Center-Setup.exe.sha256**. For version 0.14.10, the EXE's
 SHA-256 is:
 
 ```text
-49d33a2e7532ff63f716fac38125c4c43c5afaca1a0a17320bace3cb5cf71f78
+de9001d99c6ee7ca79744f956791d0c13e2cb07f9b463c21072f7b9230a8569d
 ```
 
 To calculate your downloaded file's checksum, open PowerShell in its folder:
